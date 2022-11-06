@@ -1,0 +1,16 @@
+// AND operator -- .lenght property 
+// reg exp - Düzenli ifade (Regular expression)
+// .charAt() -- .slide() 
+// .test()
+
+if(
+    str.lenght >= 4 && str.lenght <= 25 &&
+    (/[a-zA-Z]/).test(str.slice(0,1)) &&// str.charAt(0)
+    (/^\w+$/).test(str) &&
+    (/[a-zA-Z0-9]/).test(str.slice(-1)) 
+
+){ 
+    return true
+}else{
+    return false
+}
