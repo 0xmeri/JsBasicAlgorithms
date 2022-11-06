@@ -1,0 +1,24 @@
+// Palindrome -- Yazıldığı zaman tersten okunuşu da kendisi de eşit olan sayılar veya kelimelere denir. (radar, nazan, 484 vb) 
+
+const value = "irem"
+
+const isPalindrome = (val) => {
+  const reverse =  val.split("").reverse().join("")
+  console.log("reverse", reverse)
+}
+
+isPalindrome(value)
+
+// yukarıdaki şekilde çalıştırınca isminin terstten okunuşunu verecek. 
+// Aşagıdaki gibi bir sorgu yaparsak ters okunuşun düz yazılan isme denk olup olmadığına bakalım. Düz isimle terstten okunuş eşit olursa true döner eşit olmazsa falkse döner
+
+const value = "irem"
+
+const isPalindrome = (val) => {
+  const reverse =  val.split("").reverse().join("")
+  return reverse === val
+ 
+}
+console.log("Palindrome", isPalindrome(value))
+
+isPalindrome(value)
