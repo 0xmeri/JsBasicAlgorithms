@@ -1,0 +1,13 @@
+// JS ile faktoriyel
+
+const number = 5;
+let result = 1;
+
+for (let index = 1; index < number; index++) {
+    result *= index
+    
+}
+console.log("result", result);
+
+// Çıktı 120 olur 
+// yukarıdaki 5 sayısı yerine farklı sayılar yazarak faktoriyel bullunabilir.  
