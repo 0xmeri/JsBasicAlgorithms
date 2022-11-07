@@ -1,3 +1,3 @@
 # JsBasicAlgorithms
 
-Coderbyte'da bulunan basit algotima soruları. 
+Basit algortima soruları. 
