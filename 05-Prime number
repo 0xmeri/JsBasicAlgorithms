@@ -4,7 +4,7 @@
 const number = 20
 let counter = 0
 
-for (let index = 0; index < number; index++) {
+for (let index = 2; index < number; index++) {
     if (number % index === 0){
         counter++;
         break;
